@@ -1,0 +1,37 @@
+.slick-slider{
+    margin: 0px 50px !important;
+}
+.card{
+    border-radius: 15px !important;
+    color:white;
+} 
+.img-fluid{
+    margin: auto;
+    width: 90%;
+    height: auto;
+}
+.btnStyle{
+    border-radius: 40px;
+    margin-top: 20px;
+    border:none;
+    padding: 2px 30px;
+}
+.btnStyle:hover{
+    background-color: #223758;
+    color: white !important;
+}
+.slick-prev:before, .slick-next:before{
+    color: black !important;
+}
+@media only screen and (max-width: 476px) {
+    .card h3{
+        font-size: 16px;
+    }
+    .btnStyle{
+        border-radius: 40px;
+        margin-top: 0px;
+        font-size: 12px;
+        border:none;
+        padding: 2px 30px;
+    }
+  }

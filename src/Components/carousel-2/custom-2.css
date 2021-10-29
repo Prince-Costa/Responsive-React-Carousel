@@ -1,0 +1,37 @@
+.slick-slider {
+    margin: 0px 50px !important;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: black !important;
+}
+
+.card-2 {
+    border-radius: 15px;
+}
+
+.imgStyle {
+    width: 100%;
+    height: 140px;
+    border: 2px solid white;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 476px) {
+    .card-2 h3 {
+        font-size: 16px;
+    }
+    .imgStyle {
+        margin: auto;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .card-2 h5 {
+        font-size: 12px;
+    }
+    .slick-slider {
+        margin: 0px !important;
+    }
+}
